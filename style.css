@@ -1,0 +1,28 @@
+.texto-central {
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 400%;
+    text-align: center;
+}
+
+.entrar {
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: white;
+    border: solid;
+    color: black;
+}
+
+img {
+    position:absolute ;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.senha {
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
