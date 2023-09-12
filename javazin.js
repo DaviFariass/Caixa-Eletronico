@@ -2,13 +2,13 @@ var nome_usuario = prompt("Olá qual é o seu nome?")
 
 alert("Olá " + nome_usuario + " é um prazer ter você por aqui!")
 
-var saldo = 100.5;
+var saldo = 5000;
 
 //function inicio() { var escolha = parseInt(prompt('Selecione uma opção 1.) Saldo 2.) Depósito 3.) Saque 4.) Sair')); if (escolha === 1) { ver_saldo(); } else if (escolha === 2) { fazer_deposito(); } else if (escolha === 3) { fazer_saque(); } else if (escolha === 4) { sair(); } else { erro(); } }
     
 
 function inicio()
-{ var escolha = parseFloat(prompt("Selecione uma opção 1.) Saldo 2.) Extrato 3.) Saque 4.) Depósito 5.) Transfêrencia 6.) Sair "));
+{ var escolha = parseFloat(prompt("Selecione uma opção \n1.) Saldo \n2.) Extrato \n3.) Saque \n4.) Depósito \n5.) Transfêrencia \n6.) Sair "));
 switch (escolha) {
 
         case 1:
@@ -187,7 +187,7 @@ function extrato() {
     
     if (senhainserida3 === senhacorreta3) {
     alert("Senha correta")
-    alert("-R$10,00 padarias seu zé    +R$25,00 Deposito    -R$5,00 Lojinha    -R$1.199,99 Magalu    -R$10,99 Carrefour    -R$5,00 Casa da Aliança");
+    alert("-R$10,00 padarias seu zé    \n+R$25,00 Deposito    \n-R$5,00 Lojinha    \n-R$1.199,99 Magalu    \n-R$10,99 Carrefour    \n-R$5,00 Casa da Aliança");
     inicio();
 }
 
